@@ -1,0 +1,19 @@
+site_name: Holisy
+nav:
+  - Home: index.md
+  - Api:
+    - "/rooms": api/rooms.md
+    - "/clients": api/clients.md
+    - "/bookings": api/bookings.md
+    - "/booking/create": api/booking_create.md
+    - "/booking/update": api/booking_update.md
+    - "/booking/delete": api/booking_delete.md
+    - "/models": api/models.md
+  - Front:
+    - "/login": front/login.md
+    - "/signup": front/signup.md
+    - "/admin": front/admin.md
+    - "/index/rooms": front/rooms.md
+    - "/index/services": front/services.md
+theme:
+ name: material
